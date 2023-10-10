@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recipeFragment">
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="com.rafelis1997.minhasreceitasapp.presentation.recipe.RecipeFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_recipeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.rafelis1997.minhasreceitasapp.presentation.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <action
+            android:id="@+id/action_detailFragment_to_recipeFragment"
+            app:destination="@id/recipeFragment" />
+        <argument
+            android:name="idRecipe"
+            app:argType="integer" />
+    </fragment>
+</navigation>

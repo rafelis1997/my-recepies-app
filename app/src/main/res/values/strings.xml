@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Minhas Receitas App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="add_recipe_button_description">Botão de adicionar receita</string>
+
+    <string name="label_empty_recipes">Ops, não temos nenhuma receita</string>
+    <string name="label_name_recipe">Nome da Receita</string>
+
+    <string name="title_new_recipe">Nova Receita</string>
+    <string name="label_ingredients">Ingredientes</string>
+    <string name="label_prepare_mode">Modo de preparo</string>
+    <string name="label_new_ingredient">Novo Ingrediente</string>
+    <string name="label_item_description">Nome do ingrediente</string>
+    <string name="label_new_prepare_mode">Insira um novo passo</string>
+</resources>
